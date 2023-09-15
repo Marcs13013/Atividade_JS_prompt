@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Idade </title>
+    
+</head>
+<body bgcolor="#C5FDFF">
+    <center>
+<h1> Descobrindo Sua Idade </h1>
+<p>Seu Nome:  <span id="name"></span></p>
+<p>Ano De Nascimento: <Span id="ano"></Span></p>
+<p>Sua Idade: <span id="idade"></span></p>
+
+
+<a href="index.html"> <button><h3> Pedindo Pizza</h3></button></a>
+
+<script>
+
+let name = prompt("Escreva Qual é o Seu Nome");
+let ano = prompt("Digite o Ano Em Que Você Nasceu");
+
+
+document.getElementById("name").innerHTML = name;
+document.getElementById("ano").innerHTML = ano;
+document.getElementById("idade").innerHTML = 2023 - ano;
+
+
+
+
+</script>
+</center>
+</body>
+</html>

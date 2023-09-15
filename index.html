@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pedindo Pizza </title>
+    
+</head>
+<body bgcolor="#C5FDFF"><center>
+<h1> Pedindo Pizza </h1>
+<p>Pizza:  <span id="Pizza"></span></p>
+<p>Nome: <Span id="name"></Span></p>
+<p>Endereço: <span id="Local"></span></p>
+<p>Forma de pagamento: <span id="Pagamento"></span></p>
+<a href="Nome.html"> <button><h3> Nome e Idade JS </h3></button></a>
+
+<script>
+
+let Pizza = prompt("Escreva Qual Pizza Você Vai Querer");
+let name = prompt("Digite Seu Nome Para Identificação");
+let Local = prompt("Digite a localização a Qual a Pizza Vai Ser Enviada");
+let Pagamento = prompt("Digite Qual Será a Forma De Pagamento");
+
+document.getElementById("Pizza").innerHTML = Pizza;
+document.getElementById("name").innerHTML = name;
+document.getElementById("Local").innerHTML = Local;
+document.getElementById("Pagamento").innerHTML = Pagamento;
+
+
+</script>
+</center>
+</body>
+</html>
